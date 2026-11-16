@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>لوحة المورد | زراعة</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header><div class="container navbar"><a href="index.html" class="logo">زراعة</a><nav class="nav-links"><a href="index.html">الرئيسية</a><a href="farmer-dashboard.html">لوحة المزارع</a></nav></div></header>
+    <main class="container">
+        <section class="page-header"><h1 class="page-title">لوحة المورد</h1><p class="page-subtitle">نموذج عرض لإدارة المنتجات والمخزون.</p></section>
+        <section>
+            <div class="flash flash-error">تعديل المنتجات أو حفظها غير متاح في النسخة الثابتة.</div>
+            <div class="dashboard-grid"><div class="metric"><small>المنتجات المعروضة</small><strong>4</strong></div><div class="metric"><small>منتجات منخفضة التوفر</small><strong>1</strong></div><div class="metric"><small>قيمة المنتجات المعروضة</small><strong>4,495.00 ر.س</strong></div></div>
+            <div class="section-block">
+                <div class="section-head"><h2>إضافة منتج</h2></div>
+                <form class="form-grid"><div class="form-row"><div><label for="name">اسم المنتج</label><input id="name" placeholder="اسم المنتج"></div><div><label for="category">الفئة</label><select id="category"><option>معدات</option><option>مواد</option></select></div></div><div class="form-row"><div><label for="price">السعر (ر.س)</label><input id="price" type="number"></div><div><label for="location">الموقع</label><input id="location" placeholder="الرياض"></div></div><div><label for="description">الوصف</label><textarea id="description" rows="3"></textarea></div><button type="button" class="btn btn-primary" disabled>الإضافة تتطلب خادماً</button></form>
+            </div>
+            <div class="section-block">
+                <div class="section-head"><h2>منتجات العرض</h2></div>
+                <div class="table-wrap"><table><thead><tr><th>المنتج</th><th>الفئة</th><th>السعر</th><th>الموقع</th><th>التوفر</th></tr></thead><tbody>
+                    <tr><td>مجموعة بداية الجرار</td><td>معدات</td><td>2,850.00 ر.س</td><td>الرياض</td><td><span class="status in-stock">متوفر</span></td></tr>
+                    <tr><td>خط الري بالتنقيط</td><td>مواد</td><td>120.00 ر.س</td><td>جدة</td><td><span class="status limited">متوفر محدود</span></td></tr>
+                    <tr><td>خلاط السماد</td><td>معدات</td><td>1,450.00 ر.س</td><td>الدمام</td><td><span class="status in-stock">متوفر</span></td></tr>
+                    <tr><td>رش المبيدات الزراعية</td><td>مواد</td><td>75.00 ر.س</td><td>أبها</td><td><span class="status in-stock">متوفر</span></td></tr>
+                </tbody></table></div>
+            </div>
+        </section>
+    </main>
+    <footer class="container" style="padding:32px 0 48px;color:var(--muted);text-align:center;">© <span data-year>2026</span> زراعة</footer>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>

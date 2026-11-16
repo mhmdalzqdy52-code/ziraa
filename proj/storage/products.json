@@ -1,0 +1,46 @@
+[
+    {
+        "id": "PRD-001",
+        "name": "مجموعة بداية الجرار",
+        "category": "معدات",
+        "price": 2850,
+        "availability": "متوفر",
+        "supplier_email": "supplier@zra3a.com",
+        "supplier": "الحديقة الخضراء",
+        "location": "الرياض",
+        "description": "مجموعة كاملة لإعداد الجرار وصيانته قبل موسم الزراعة."
+    },
+    {
+        "id": "PRD-002",
+        "name": "خط الري بالتنقيط",
+        "category": "مواد",
+        "price": 120,
+        "availability": "متوفر محدود",
+        "supplier_email": "supplier@zra3a.com",
+        "supplier": "مزرعة المياه",
+        "location": "جدة",
+        "description": "أنابيب ري متينة تساعد على توزيع الماء بكفاءة داخل الحقول."
+    },
+    {
+        "id": "PRD-003",
+        "name": "خلاط السماد",
+        "category": "معدات",
+        "price": 1450,
+        "availability": "متوفر",
+        "supplier_email": "supplier@zra3a.com",
+        "supplier": "محصول الصحراء",
+        "location": "الدمام",
+        "description": "خلاط قوي لتوزيع الأسمدة بدقة وسهولة خلال العمل اليومي."
+    },
+    {
+        "id": "PRD-004",
+        "name": "رش المبيدات الزراعية",
+        "category": "مواد",
+        "price": 75,
+        "availability": "متوفر",
+        "supplier_email": "supplier@zra3a.com",
+        "supplier": "صحراء الزراعة",
+        "location": "أبها",
+        "description": "منتج فعال لمكافحة الآفات والأمراض النباتية في الحقول."
+    }
+]

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>حجز موعد | زراعة</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header><div class="container navbar"><a href="index.html" class="logo">زراعة</a><nav class="nav-links"><a href="index.html">الرئيسية</a><a href="login.html">تسجيل الدخول</a></nav></div></header>
+    <main class="container">
+        <section class="page-header">
+            <h1 class="page-title">احجز استشارة زراعية</h1>
+            <p class="page-subtitle">اختر الخبير المناسب والموعد ونوع الاستشارة.</p>
+        </section>
+        <section>
+            <div class="section-head"><h2>الخبراء الزراعيون</h2></div>
+            <div class="request-grid" style="margin-bottom:32px;">
+                <article class="request-card">
+                    <h3>ليلى الخبيرة</h3>
+                    <p>صحة التربة وخصوبتها — 10 سنوات خبرة</p>
+                    <small>ماجستير علوم زراعية</small>
+                    <p style="margin-top:10px;font-weight:800;color:var(--primary-dark);">180.00 ر.س / جلسة</p>
+                    <p><span class="product-badge">حضورياً</span> <span class="product-badge">عن بعد</span></p>
+                    <a class="btn btn-primary btn-block" href="#booking-form">عرض تفاصيل الحجز</a>
+                </article>
+            </div>
+            <div class="booking-layout" id="booking-form">
+                <div class="auth-card">
+                    <h3>تفاصيل الاستشارة</h3>
+                    <div class="flash flash-error">الحجز والدفع لا يعملان في النسخة الثابتة. لا تدخل أي بيانات بطاقة.</div>
+                    <form class="form-grid">
+                        <div><label for="slot">الموعد المتاح</label><select id="slot"><option>الأحد 10:00ص</option><option>الاثنين 1:00م</option><option>الخميس 4:00م</option></select></div>
+                        <div><label for="type">نوع الاستشارة</label><select id="type"><option>حضورياً</option><option>عن بعد</option></select></div>
+                        <button type="button" class="btn btn-primary" disabled>الحجز غير متاح في النسخة الثابتة</button>
+                    </form>
+                </div>
+                <div class="summary-box">
+                    <h4>ملخص الحجز</h4>
+                    <ul><li>الخبير: ليلى الخبيرة</li><li>التخصص: صحة التربة وخصوبتها</li><li>رسوم الاستشارة: <strong>180.00 ر.س</strong></li></ul>
+                    <div class="price">180.00 ر.س</div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="container" style="padding:32px 0 48px;color:var(--muted);text-align:center;">© <span data-year>2026</span> زراعة</footer>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>

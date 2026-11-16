@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>لوحة المزارع | زراعة</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header><div class="container navbar"><a href="index.html" class="logo">زراعة</a><nav class="nav-links"><a href="index.html">الرئيسية</a><a href="booking.html">حجز استشارة</a><a href="login.html">تسجيل الدخول</a></nav></div></header>
+    <main class="container">
+        <section class="page-header"><h1 class="page-title">لوحة المزارع</h1><p class="page-subtitle">استكشف المنتجات والخدمات الزراعية.</p></section>
+        <section>
+            <div class="flash flash-error">هذه بيانات عرض ثابتة. الطلبات والحجوزات لا تُحفظ على GitHub Pages.</div>
+            <div class="dashboard-grid">
+                <div class="metric"><small>المنتجات المعروضة</small><strong>4</strong></div>
+                <div class="metric"><small>طلباتي النشطة</small><strong>0</strong></div>
+                <div class="metric"><small>مواعيدي القادمة</small><strong>0</strong></div>
+            </div>
+            <div class="section-block" id="products">
+                <div class="section-head"><h2>المعدات والمواد المتاحة</h2><a href="booking.html" class="btn btn-secondary">حجز استشارة</a></div>
+                <div class="equipment-grid">
+                    <article class="equipment-card"><div class="equipment-header"><span class="product-badge">معدات</span><span class="price-tag">2,850.00 ر.س</span></div><h3>مجموعة بداية الجرار</h3><p class="equipment-description">مجموعة كاملة لإعداد الجرار وصيانته قبل موسم الزراعة.</p><ul class="equipment-meta"><li><strong>المورد:</strong> الحديقة الخضراء</li><li><strong>الموقع:</strong> الرياض</li><li><strong>التوفر:</strong> <span class="status in-stock">متوفر</span></li></ul><a class="btn btn-primary btn-block" href="mailto:supplier@zra3a.com">تواصل مع المورد</a></article>
+                    <article class="equipment-card"><div class="equipment-header"><span class="product-badge">مواد</span><span class="price-tag">120.00 ر.س</span></div><h3>خط الري بالتنقيط</h3><p class="equipment-description">أنابيب ري متينة تساعد على توزيع الماء بكفاءة داخل الحقول.</p><ul class="equipment-meta"><li><strong>المورد:</strong> مزرعة المياه</li><li><strong>الموقع:</strong> جدة</li><li><strong>التوفر:</strong> <span class="status limited">متوفر محدود</span></li></ul><a class="btn btn-primary btn-block" href="mailto:supplier@zra3a.com">تواصل مع المورد</a></article>
+                    <article class="equipment-card"><div class="equipment-header"><span class="product-badge">معدات</span><span class="price-tag">1,450.00 ر.س</span></div><h3>خلاط السماد</h3><p class="equipment-description">خلاط قوي لتوزيع الأسمدة بدقة وسهولة خلال العمل اليومي.</p><ul class="equipment-meta"><li><strong>المورد:</strong> محصول الصحراء</li><li><strong>الموقع:</strong> الدمام</li><li><strong>التوفر:</strong> <span class="status in-stock">متوفر</span></li></ul><a class="btn btn-primary btn-block" href="mailto:supplier@zra3a.com">تواصل مع المورد</a></article>
+                    <article class="equipment-card"><div class="equipment-header"><span class="product-badge">مواد</span><span class="price-tag">75.00 ر.س</span></div><h3>رش المبيدات الزراعية</h3><p class="equipment-description">منتج فعال لمكافحة الآفات والأمراض النباتية في الحقول.</p><ul class="equipment-meta"><li><strong>المورد:</strong> صحراء الزراعة</li><li><strong>الموقع:</strong> أبها</li><li><strong>التوفر:</strong> <span class="status in-stock">متوفر</span></li></ul><a class="btn btn-primary btn-block" href="mailto:supplier@zra3a.com">تواصل مع المورد</a></article>
+                </div>
+            </div>
+            <div class="section-block" id="requests">
+                <div class="section-head"><h2>طلب صيانة</h2></div>
+                <p>أحمد الميكانيكي — صيانة الجرارات ومحركات الديزل</p>
+                <form class="form-grid"><label for="equipment">اسم المعدة</label><input id="equipment" placeholder="مثال: جرار"><label for="issue">وصف المشكلة</label><textarea id="issue" rows="3"></textarea><button type="button" class="btn btn-primary" disabled>إرسال الطلب يتطلب خادماً</button></form>
+            </div>
+            <div class="section-block" id="appointments"><div class="section-head"><h2>مواعيدي</h2><a href="booking.html" class="btn btn-secondary">حجز موعد</a></div><p style="color:var(--muted);">لا توجد مواعيد في بيانات العرض الثابتة.</p></div>
+        </section>
+    </main>
+    <footer class="container" style="padding:32px 0 48px;color:var(--muted);text-align:center;">© <span data-year>2026</span> زراعة</footer>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
