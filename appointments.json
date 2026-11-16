@@ -1,0 +1,14 @@
+[
+    {
+        "id": "APT-D28AEA",
+        "farmer_email": "farmer@zra3a.com",
+        "farmer_name": "سعد المزارع",
+        "specialist_email": "specialist@zra3a.com",
+        "specialist_name": "ليلى الخبيرة",
+        "slot": "الأربعاء 11:00ص",
+        "type": "عن بعد",
+        "fee": 180,
+        "status": "مكتمل",
+        "created_at": "2026-09-16 18:19"
+    }
+]
