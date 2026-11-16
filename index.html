@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>زراعة | نظام المعدات والخدمات الزراعية</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container navbar">
+            <a href="index.html" class="logo">زراعة</a>
+            <nav class="nav-links">
+                <a href="index.html">الرئيسية</a>
+                <a href="booking.html">حجز استشارة</a>
+                <a href="farmer-dashboard.html">المزارع</a>
+                <a href="supplier-dashboard.html">المورد</a>
+                <a href="mechanic-dashboard.html">الميكانيكي</a>
+                <a href="specialist-dashboard.html">الخبير</a>
+                <a href="admin-dashboard.html">المدير</a>
+                <a href="login.html">تسجيل الدخول</a>
+                <a href="register.html" class="btn btn-secondary">إنشاء حساب</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-grid">
+                <div>
+                    <h1>نربط المزارعين بالمعدات والخدمات والخبرة الزراعية.</h1>
+                    <p>
+                        ابحث عن الآلات المناسبة، والميكانيكيين الموثوقين، والخبراء الزراعيين، والخدمات الاستشارية جميعها في منصة واحدة مصممة للزراعة الحديثة.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="register.html" class="btn btn-primary">إنشاء حساب</a>
+                        <a href="booking.html" class="btn btn-secondary">احجز استشارة</a>
+                    </div>
+                    <div class="stats">
+                        <div class="stat-box">
+                            <strong>4</strong>
+                            <span>منتج ومستلزم</span>
+                        </div>
+                        <div class="stat-box">
+                            <strong>1</strong>
+                            <span>فني صيانة</span>
+                        </div>
+                        <div class="stat-box">
+                            <strong>1</strong>
+                            <span>خبير زراعي</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-card">
+                    <h3>لماذا يختار المزارعون زراعة؟</h3>
+                    <ul class="feature-list">
+                        <li>البحث عن المعدات والمواد الزراعية حسب الفئة</li>
+                        <li>العثور على ميكانيكيين ومزودين مؤهلين</li>
+                        <li>حجز استشارات مدفوعة حضورياً أو عبر الإنترنت</li>
+                        <li>متابعة الطلبات والحجوزات من موقع واحد</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="features">
+            <div class="container">
+                <div class="section-header">
+                    <h2>الخدمات الأساسية</h2>
+                    <p>كل ما يحتاجه المزارع لإدارة المعدات والطلبات والخدمات الاستشارية.</p>
+                </div>
+
+                <div class="grid-3">
+                    <article class="card">
+                        <span class="tag">المعدات</span>
+                        <h3>البحث عن المنتجات</h3>
+                        <p>ابحث عن الأدوات والمواد الزراعية حسب الاسم أو الفئة وتحقق من توفرها من المورد.</p>
+                    </article>
+                    <article class="card">
+                        <span class="tag">الصيانة</span>
+                        <h3>طلبات الإصلاح</h3>
+                        <p>أرسل مشكلة فنية وتتبع حالة طلب الصيانة والإصلاح من خلال الميكانيكيين.</p>
+                    </article>
+                    <article class="card">
+                        <span class="tag">الاستشارة</span>
+                        <h3>استشارة الخبراء</h3>
+                        <p>احجز استشارات مع المختصين الزراعيين حضورياً أو عبر الإنترنت مع رسوم واضحة ودفع آمن.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="search">
+            <div class="container">
+                <div class="section-header">
+                    <h2>ابحث في السوق</h2>
+                    <p>استخدم لوحة واحدة للعثور على المعدات والمواد الزراعية بسرعة.</p>
+                </div>
+
+                <div class="search-panel">
+                    <form class="search-grid" id="product-search-form" action="index.html" method="get">
+                        <div>
+                            <input id="product-query" type="text" name="query" placeholder="ابحث عن المنتجات، مثال: جرار أو ري">
+                        </div>
+                        <div>
+                            <select id="product-category" name="category">
+                                <option value="">كل الفئات</option>
+                                <option value="معدات">معدات</option>
+                                <option value="مواد">مواد</option>
+                            </select>
+                        </div>
+                        <div>
+                            <button type="submit" class="btn btn-primary">بحث</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="section-header">
+                    <h2 id="products-heading">المنتجات الشائعة</h2>
+                    <p>عناصر متاحة حديثاً من موردين موثوقين.</p>
+                </div>
+
+                <div class="table-wrap">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>المنتج</th>
+                                <th>الفئة</th>
+                                <th>المورد</th>
+                                <th>السعر</th>
+                                <th>التوفر</th>
+                            </tr>
+                        </thead>
+                        <tbody id="products-table">
+                            <tr data-category="معدات" data-description="مجموعة كاملة لإعداد الجرار وصيانته قبل موسم الزراعة.">
+                                <td>مجموعة بداية الجرار</td>
+                                <td>معدات</td>
+                                <td>الحديقة الخضراء</td>
+                                <td>2,850.00 ر.س</td>
+                                <td><span class="status in-stock">متوفر</span></td>
+                            </tr>
+                            <tr data-category="مواد" data-description="أنابيب ري متينة تساعد على توزيع الماء بكفاءة داخل الحقول.">
+                                <td>خط الري بالتنقيط</td>
+                                <td>مواد</td>
+                                <td>مزرعة المياه</td>
+                                <td>120.00 ر.س</td>
+                                <td><span class="status limited">متوفر محدود</span></td>
+                            </tr>
+                            <tr data-category="معدات" data-description="خلاط قوي لتوزيع الأسمدة بدقة وسهولة خلال العمل اليومي.">
+                                <td>خلاط السماد</td>
+                                <td>معدات</td>
+                                <td>محصول الصحراء</td>
+                                <td>1,450.00 ر.س</td>
+                                <td><span class="status in-stock">متوفر</span></td>
+                            </tr>
+                            <tr data-category="مواد" data-description="منتج فعال لمكافحة الآفات والأمراض النباتية في الحقول.">
+                                <td>رش المبيدات الزراعية</td>
+                                <td>مواد</td>
+                                <td>صحراء الزراعة</td>
+                                <td>75.00 ر.س</td>
+                                <td><span class="status in-stock">متوفر</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="container" style="padding: 32px 0 48px; color: var(--muted); text-align: center;">
+        <p>هذه نسخة عرض ثابتة؛ تسجيل الدخول والحجوزات وإدارة البيانات تتطلب خادماً خلفياً.</p>
+        © <span data-year>2026</span> زراعة · نظام المعدات والخدمات الزراعية
+    </footer>
+    <script src="assets/js/app.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const form = document.getElementById('product-search-form');
+            const queryInput = document.getElementById('product-query');
+            const categoryInput = document.getElementById('product-category');
+            const table = document.getElementById('products-table');
+            const heading = document.getElementById('products-heading');
+            const rows = Array.from(table.querySelectorAll('tr[data-category]'));
+            const params = new URLSearchParams(window.location.search);
+
+            queryInput.value = params.get('query') || '';
+            categoryInput.value = params.get('category') || '';
+
+            const filterProducts = () => {
+                const query = queryInput.value.trim().toLocaleLowerCase();
+                const category = categoryInput.value;
+                let visibleCount = 0;
+
+                rows.forEach((row) => {
+                    const searchableText = `${row.cells[0].textContent} ${row.dataset.description}`.toLocaleLowerCase();
+                    const matchesQuery = !query || searchableText.includes(query);
+                    const matchesCategory = !category || row.dataset.category === category;
+                    const isVisible = matchesQuery && matchesCategory;
+
+                    row.hidden = !isVisible;
+                    if (isVisible) {
+                        visibleCount += 1;
+                    }
+                });
+
+                const emptyRow = table.querySelector('[data-empty-row]');
+                if (emptyRow) {
+                    emptyRow.remove();
+                }
+
+                heading.textContent = query || category ? 'نتائج البحث' : 'المنتجات الشائعة';
+                if (visibleCount === 0) {
+                    const row = document.createElement('tr');
+                    row.dataset.emptyRow = '';
+                    const cell = document.createElement('td');
+                    cell.colSpan = 5;
+                    cell.style.cssText = 'text-align:center; color: var(--muted); padding: 28px;';
+                    cell.textContent = 'لا توجد منتجات مطابقة لبحثك. جرّب كلمات أخرى.';
+                    row.appendChild(cell);
+                    table.appendChild(row);
+                }
+            };
+
+            form.addEventListener('submit', (event) => {
+                event.preventDefault();
+                const searchParams = new URLSearchParams();
+                if (queryInput.value.trim()) {
+                    searchParams.set('query', queryInput.value.trim());
+                }
+                if (categoryInput.value) {
+                    searchParams.set('category', categoryInput.value);
+                }
+                const search = searchParams.toString();
+                window.history.replaceState(null, '', search ? `?${search}` : window.location.pathname);
+                filterProducts();
+            });
+
+            filterProducts();
+        });
+    </script>
+</body>
+</html>
